@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/main-logo2 1.png" alt="" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main "
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav text-center mb-2 mb-lg-0 ms-auto">
+            <li class="active nav-item">
+              <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#"
+                ><i class="fa-solid fa-cart-shopping"></i>
+                <p class="mb-0">Auctions</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#"
+                ><i class="fa-solid fa-trophy"></i>
+                <p class="mb-0">Contests</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#"
+                ><i class="fa-solid fa-briefcase"></i>
+                <p class="mb-0">Project</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#"
+                ><i class="fa-solid fa-image"></i>
+                <p class="mb-0">Portfolios</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#"
+                ><i class="fa-solid fa-users"></i>
+                <p class="mb-0">Freelancers</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#"
+                ><i class="fa-solid fa-message"></i>
+                <p class="mb-0">Forum</p></a
+              >
+            </li>
+          </ul>
+          <div
+            class="ms-auto d-flex align-items-center justify-content-center gap-2 notification-container"
+          >
+            <div class="notifications ms-auto">
+              <a href="#" class="notification">
+                <i class="fa-regular fa-comment-dots"></i>
+                <span class="badge">10</span>
+              </a>
+            </div>
+            <div class="notifications me-4">
+              <a href="#" class="notification">
+                <i class="fa-regular fa-bell"></i>
+                <span class="badge">10</span>
+              </a>
+            </div>
+            <div class="dropdown">
+              <a class="dropbtn" href="#">
+                <img src="images/Group 1000001733.png" alt=""
+              /></a>
+              <div class="dropdown-content text-start">
+                <div class="d-flex p-3 content-head">
+                  <img src="images/Group 1000001733.png" alt="" />
+                  <div class="text-start px-2">
+                    <h6 class="fw-bold mb-0">Mohamed</h6>
+                    <p class="fs-7 text-black-50 mb-0">student</p>
+                  </div>
+                </div>
+                <div class="profile text-black-50 py-2 px-3">
+                  <i class="fa-solid fa-circle-user"></i>
+                  <span class="ms-2">My Profile</span>
+                </div>
+                <div
+                  class="mode text-black-50 py-2 px-3 d-flex justify-content-between align-items-center"
+                >
+                  <div>
+                    <i class="fa-regular fa-moon"></i>
+                    <span class="ms-2">Dark Mode</span>
+                  </div>
+                  <label class="center-flex">
+                    <input type="checkbox" checked class="check-box" />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+                <div
+                  class="language text-black-50 d-flex align-items-center justify-content-between py-2 px-3"
+                >
+                  <div>
+                    <i class="fa-solid fa-language"></i>
+                    <span class="ms-2">Language</span>
+                  </div>
+                  <div
+                    class="d-flex align-items-center justify-content-center gap-1"
+                  >
+                    <span>العربية</span>
+                    <span class="seperate"></span>
+                    <img src="images/saudi.png" alt="" />
+                  </div>
+                </div>
+                <div class="setting text-black-50 py-2 px-3">
+                  <i class="fa-solid fa-gear"></i>
+                  <span class="ms-2">Account Settings</span>
+                </div>
+                <div class="py-2 px-3 logout">
+                  <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                  <span class="ms-2">Logout</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- start content -->
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-9 col-12">
+          <div class="design">
+            <h5 class="title">Design / Logo Design</h5>
+            <p class="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+              nisi, cras neque Lorem ipsum dolor sit amet,
+            </p>
+            <div class="d-flex justify-content-between pt-2 rate">
+              <div class="stars d-flex align-items-center">
+                <i class="fa-solid fa-star colored"></i>
+                <i class="fa-solid fa-star colored"></i>
+                <i class="fa-solid fa-star colored"></i>
+                <i class="fa-solid fa-star colored"></i>
+                <i class="fa-solid fa-star not-colored"></i>
+                <span class="ps-2">4.1 (500)</span>
+              </div>
+              <div class="icons d-flex align-items-center">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/Rectangle 8.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/Rectangle 8.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/Rectangle 8.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+          <div class="pb-4 description">
+            <h4 class="h4">Description</h4>
+            <div class="paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                nisi, cras neque Lorem ipsum dolor sit amet, Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                dolor sit amet, Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+          <div class="services">
+            <div class="head d-flex justify-content-between align-items-center">
+              <h4 class="h4">Service Add-Ons</h4>
+              <div class="select">
+                <i class="fa-regular fa-circle-check"></i>
+                Select All
+              </div>
+            </div>
+            <form action="">
+              <div class="service">
+                <div class="check d-flex align-items-start">
+                  <input type="radio" name="services" id="service1" checked />
+                  <label for="service1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Diam nisi, cras neque Lorem ipsum dolor sit amet, Lorem
+                    ipsum dolor sit amet.
+                  </label>
+                </div>
+                <div class="details d-flex align-items-center">
+                  <div>$ 100</div>
+                  <div>2 days</div>
+                </div>
+              </div>
+              <div class="service">
+                <div class="check d-flex align-items-start">
+                  <input type="radio" name="services" id="service2" />
+                  <label for="service2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Diam nisi, cras neque Lorem ipsum d2lor sit amet, Lorem
+                    ipsum dolor sit amet.
+                  </label>
+                </div>
+                <div class="details d-flex align-items-center">
+                  <div>$ 100</div>
+                  <div>2 days</div>
+                </div>
+              </div>
+              <div class="service">
+                <div class="check d-flex align-items-start">
+                  <input type="radio" name="services" id="service3" />
+                  <label for="service3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Diam nisi, cras neque Lorem ipsum dolor sit amet, Lorem
+                    ipsum dolor sit amet.
+                  </label>
+                </div>
+                <div class="details d-flex align-items-center">
+                  <div>$ 100</div>
+                  <div>2 days</div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="purchase mt-5">
+            <h4 class="h4">Purchase Service</h4>
+            <div
+              class="box d-flex justify-content-between align-items-center gap-2"
+            >
+              <div
+                class="unit-count d-flex justify-content-center align-items-center"
+              >
+                <span class="decrease"><i class="fa-solid fa-minus"></i></span>
+                <span class="count">3</span>
+                <span class="increase"><i class="fa-solid fa-plus"></i></span>
+              </div>
+              <div
+                class="total d-flex justify-content-center align-items-center"
+              >
+                $300
+              </div>
+              <button type="button" class="main-btn">Purchase</button>
+            </div>
+          </div>
+          <div class="rating mt-5">
+            <h4 class="h4">
+              <i class="fa-solid fa-star colored"></i> Service Rating . 46
+              Ratings
+            </h4>
+            <div class="box">
+              <div
+                class="d-flex flex-wrap align-items-center text-center text-md-start justify-content-between mb-3 flex-column flex-md-row"
+              >
+                <p class="mb-0">
+                  Work Quality <i class="fa-solid fa-star colored"></i> 5.0
+                </p>
+                <div class="fs-5">
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star not-colored"></i>
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar w-75"></div>
+                  </div>
+                  <span>4</span>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-wrap align-items-center text-center text-md-start justify-content-between mb-3 flex-column flex-md-row"
+              >
+                <p class="mb-0">
+                  Communication & Collaboration
+                  <i class="fa-solid fa-star colored"></i> 5.0
+                </p>
+                <div class="fs-5">
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star not-colored"></i>
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar w-75"></div>
+                  </div>
+                  <span>4</span>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-wrap align-items-center text-center text-md-start justify-content-between mb-3 flex-column flex-md-row"
+              >
+                <p class="mb-0">
+                  Adherence to Schedule
+                  <i class="fa-solid fa-star colored"></i> 5.0
+                </p>
+                <div class="fs-5">
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star not-colored"></i>
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar w-75"></div>
+                  </div>
+                  <span>4</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comments my-4">
+            <div class="comment d-flex align-items-start">
+              <img src="images/man.jpeg" alt="" />
+              <div class="ps-2">
+                <h5>Jane Smith</h5>
+                <p>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star not-colored"></i> . 30m
+                </p>
+                <p class="pragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                  nisi, cras neque Lorem ipsum dolor sit amet, Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit.... Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                  Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit....
+                </p>
+              </div>
+            </div>
+            <div class="comment d-flex align-items-start">
+              <img src="images/man.jpeg" alt="" />
+              <div class="ps-2">
+                <h5>Jane Smith</h5>
+                <p>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star not-colored"></i> . 30m
+                </p>
+                <p class="pragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                  nisi, cras neque Lorem ipsum dolor sit amet, Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit.... Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                  Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit....
+                </p>
+              </div>
+            </div>
+            <div class="comment d-flex align-items-start">
+              <img src="images/man.jpeg" alt="" />
+              <div class="ps-2">
+                <h5>Jane Smith</h5>
+                <p>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star colored"></i>
+                  <i class="fa-solid fa-star not-colored"></i> . 30m
+                </p>
+                <p class="pragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                  nisi, cras neque Lorem ipsum dolor sit amet, Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit.... Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                  Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit....
+                </p>
+              </div>
+            </div>
+            <div
+              class="message mt-4 d-flex align-items-start justify-content-start"
+            >
+              <img src="images/man2.jpeg" alt="" />
+              <div class="ps-2 text-area-cotnainer">
+                <textarea
+                  name=""
+                  id=""
+                  placeholder="Write your review in here"
+                ></textarea>
+                <button class="main-btn mt-2">Post Review</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="card contact">
+            <div class="card-body">
+              <h5 class="card-title">Seller</h5>
+              <div class="text-center contact-content">
+                <img src="images/Group 1000001919.png" alt="" />
+                <div class="name pt-2 d-flex justify-content-center">
+                  <h4>Jane Smith</h4>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.8808 6.22953C14.6157 5.9525 14.3415 5.66703 14.2381 5.41602C14.1425 5.18609 14.1369 4.805 14.1312 4.43586C14.1207 3.74961 14.1095 2.97195 13.5687 2.43125C13.028 1.89055 12.2504 1.8793 11.5641 1.86875C11.195 1.86312 10.8139 1.8575 10.584 1.76187C10.3337 1.65852 10.0475 1.3843 9.77047 1.11922C9.28531 0.653047 8.73406 0.125 8 0.125C7.26594 0.125 6.71539 0.653047 6.22953 1.11922C5.9525 1.3843 5.66703 1.65852 5.41602 1.76187C5.1875 1.8575 4.805 1.86312 4.43586 1.86875C3.74961 1.8793 2.97195 1.89055 2.43125 2.43125C1.89055 2.97195 1.88281 3.74961 1.86875 4.43586C1.86312 4.805 1.8575 5.18609 1.76187 5.41602C1.65852 5.66633 1.3843 5.9525 1.11922 6.22953C0.653047 6.71469 0.125 7.26594 0.125 8C0.125 8.73406 0.653047 9.28461 1.11922 9.77047C1.3843 10.0475 1.65852 10.333 1.76187 10.584C1.8575 10.8139 1.86312 11.195 1.86875 11.5641C1.8793 12.2504 1.89055 13.028 2.43125 13.5687C2.97195 14.1095 3.74961 14.1207 4.43586 14.1312C4.805 14.1369 5.18609 14.1425 5.41602 14.2381C5.66633 14.3415 5.9525 14.6157 6.22953 14.8808C6.71469 15.347 7.26594 15.875 8 15.875C8.73406 15.875 9.28461 15.347 9.77047 14.8808C10.0475 14.6157 10.333 14.3415 10.584 14.2381C10.8139 14.1425 11.195 14.1369 11.5641 14.1312C12.2504 14.1207 13.028 14.1095 13.5687 13.5687C14.1095 13.028 14.1207 12.2504 14.1312 11.5641C14.1369 11.195 14.1425 10.8139 14.2381 10.584C14.3415 10.3337 14.6157 10.0475 14.8808 9.77047C15.347 9.28531 15.875 8.73406 15.875 8C15.875 7.26594 15.347 6.71539 14.8808 6.22953ZM11.2105 6.71047L7.27297 10.648C7.22073 10.7003 7.15869 10.7418 7.0904 10.7701C7.02212 10.7984 6.94892 10.8129 6.875 10.8129C6.80108 10.8129 6.72788 10.7984 6.6596 10.7701C6.59131 10.7418 6.52927 10.7003 6.47703 10.648L4.78953 8.96047C4.68398 8.85492 4.62469 8.71177 4.62469 8.5625C4.62469 8.41323 4.68398 8.27008 4.78953 8.16453C4.89508 8.05898 5.03823 7.99969 5.1875 7.99969C5.33677 7.99969 5.47992 8.05898 5.58547 8.16453L6.875 9.45477L10.4145 5.91453C10.4668 5.86227 10.5288 5.82081 10.5971 5.79253C10.6654 5.76424 10.7386 5.74969 10.8125 5.74969C10.8864 5.74969 10.9596 5.76424 11.0279 5.79253C11.0962 5.82081 11.1582 5.86227 11.2105 5.91453C11.2627 5.96679 11.3042 6.02884 11.3325 6.09712C11.3608 6.1654 11.3753 6.23859 11.3753 6.3125C11.3753 6.38641 11.3608 6.4596 11.3325 6.52788C11.3042 6.59616 11.2627 6.65821 11.2105 6.71047Z"
+                      fill="#1DBF73"
+                    />
+                  </svg>
+                </div>
+                <div class="location">
+                  <i class="fa-solid fa-location-dot"></i> Cairo, Egypt
+                </div>
+                <div class="stars d-flex justify-content-center">
+                  <i class="fa-solid fa-star colored"></i
+                  ><i class="fa-solid fa-star colored"></i
+                  ><i class="fa-solid fa-star colored"></i
+                  ><i class="fa-solid fa-star colored"></i
+                  ><i class="fa-solid fa-star not-colored"></i>
+                  <span>4.1(500)</span>
+                </div>
+                <div class="svgs d-flex justify-content-center py-2">
+                  <div class="svg">
+                    <svg
+                      width="19"
+                      height="25"
+                      viewBox="0 0 19 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18.0938 9.37497C18.0946 7.92673 17.7295 6.50177 17.0322 5.23242C16.3349 3.96308 15.3282 2.89053 14.1055 2.1144C12.8828 1.33827 11.4838 0.883731 10.0384 0.793005C8.59297 0.702278 7.14809 0.978305 5.83792 1.59545C4.52776 2.21259 3.39481 3.15083 2.5443 4.32302C1.69379 5.49522 1.15331 6.86334 0.973069 8.30032C0.792825 9.7373 0.97866 11.1965 1.51331 12.5425C2.04797 13.8884 2.91409 15.0774 4.03125 15.999V23.4375C4.03116 23.5707 4.06514 23.7018 4.12997 23.8182C4.1948 23.9346 4.28832 24.0325 4.40164 24.1025C4.51497 24.1726 4.64433 24.2125 4.77743 24.2185C4.91054 24.2245 5.04296 24.1963 5.16211 24.1367L9.5 21.9726L13.8389 24.1416C13.9476 24.1936 14.0669 24.22 14.1875 24.2187C14.3947 24.2187 14.5934 24.1364 14.7399 23.9899C14.8864 23.8434 14.9688 23.6447 14.9688 23.4375V15.999C15.9462 15.1939 16.7334 14.1825 17.2737 13.0372C17.814 11.892 18.094 10.6413 18.0938 9.37497ZM2.46875 9.37497C2.46875 7.98432 2.88113 6.62491 3.65373 5.46862C4.42633 4.31234 5.52447 3.41113 6.80926 2.87895C8.09405 2.34677 9.5078 2.20753 10.8717 2.47883C12.2357 2.75013 13.4885 3.41979 14.4718 4.40313C15.4552 5.38647 16.1248 6.63932 16.3961 8.00325C16.6675 9.36718 16.5282 10.7809 15.996 12.0657C15.4639 13.3505 14.5626 14.4486 13.4064 15.2212C12.2501 15.9938 10.8907 16.4062 9.5 16.4062C7.63583 16.4042 5.84861 15.6627 4.53044 14.3445C3.21227 13.0264 2.47082 11.2391 2.46875 9.37497ZM4.03125 9.37497C4.03125 8.29336 4.35199 7.23603 4.9529 6.3367C5.55382 5.43737 6.40792 4.73643 7.4072 4.32251C8.40648 3.90859 9.50607 3.80029 10.5669 4.01131C11.6277 4.22232 12.6022 4.74317 13.367 5.50799C14.1318 6.2728 14.6527 7.24724 14.8637 8.30807C15.0747 9.36891 14.9664 10.4685 14.5525 11.4678C14.1386 12.4671 13.4376 13.3212 12.5383 13.9221C11.6389 14.523 10.5816 14.8437 9.5 14.8437C8.05007 14.8422 6.65998 14.2655 5.63472 13.2403C4.60947 12.215 4.0328 10.8249 4.03125 9.37497Z"
+                        fill="#1DBF73"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="svg">
+                    <svg
+                      width="20"
+                      height="19"
+                      viewBox="0 0 20 19"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12.834 10.0527L8.92773 13.959C8.81847 14.0684 8.67921 14.1429 8.52758 14.1731C8.37595 14.2033 8.21878 14.1878 8.07594 14.1286C7.93311 14.0694 7.81106 13.9692 7.72522 13.8406C7.63938 13.712 7.59363 13.5609 7.59375 13.4062V10.2812H1.34375C1.13655 10.2812 0.937836 10.1989 0.791323 10.0524C0.64481 9.90592 0.5625 9.7072 0.5625 9.5C0.5625 9.2928 0.64481 9.09409 0.791323 8.94757C0.937836 8.80106 1.13655 8.71875 1.34375 8.71875H7.59375V5.59375C7.59363 5.43914 7.63938 5.28798 7.72522 5.15939C7.81106 5.0308 7.93311 4.93057 8.07594 4.87139C8.21878 4.81221 8.37595 4.79673 8.52758 4.82693C8.67921 4.85713 8.81847 4.93163 8.92773 5.04102L12.834 8.94727C12.9066 9.01982 12.9642 9.10599 13.0036 9.20083C13.0429 9.29567 13.0631 9.39733 13.0631 9.5C13.0631 9.60267 13.0429 9.70433 13.0036 9.79917C12.9642 9.89401 12.9066 9.98018 12.834 10.0527ZM17.75 0.125H12.2812C12.074 0.125 11.8753 0.20731 11.7288 0.353823C11.5823 0.500336 11.5 0.69905 11.5 0.90625C11.5 1.11345 11.5823 1.31216 11.7288 1.45868C11.8753 1.60519 12.074 1.6875 12.2812 1.6875H17.75V17.3125H12.2812C12.074 17.3125 11.8753 17.3948 11.7288 17.5413C11.5823 17.6878 11.5 17.8865 11.5 18.0938C11.5 18.301 11.5823 18.4997 11.7288 18.6462C11.8753 18.7927 12.074 18.875 12.2812 18.875H17.75C18.1644 18.875 18.5618 18.7104 18.8549 18.4174C19.1479 18.1243 19.3125 17.7269 19.3125 17.3125V1.6875C19.3125 1.2731 19.1479 0.875671 18.8549 0.582646C18.5618 0.28962 18.1644 0.125 17.75 0.125Z"
+                        fill="#1DBF73"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="svg">
+                    <svg
+                      width="21"
+                      height="19"
+                      viewBox="0 0 21 19"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.9375 8.71875C8.9375 9.02778 8.84586 9.32988 8.67417 9.58683C8.50248 9.84378 8.25845 10.0441 7.97294 10.1623C7.68743 10.2806 7.37327 10.3115 7.07017 10.2512C6.76708 10.1909 6.48867 10.0421 6.27015 9.8236C6.05163 9.60508 5.90281 9.32667 5.84252 9.02358C5.78223 8.72048 5.81318 8.40632 5.93144 8.12081C6.0497 7.8353 6.24997 7.59127 6.50692 7.41958C6.76387 7.24789 7.06597 7.15625 7.375 7.15625C7.7894 7.15625 8.18683 7.32087 8.47985 7.6139C8.77288 7.90692 8.9375 8.30435 8.9375 8.71875ZM20.6562 2.46875V16.5312C20.6562 16.9457 20.4916 17.3431 20.1986 17.6361C19.9056 17.9291 19.5082 18.0938 19.0938 18.0938H1.90625C1.49185 18.0938 1.09442 17.9291 0.801396 17.6361C0.50837 17.3431 0.34375 16.9457 0.34375 16.5312V2.46875C0.34375 2.05435 0.50837 1.65692 0.801396 1.3639C1.09442 1.07087 1.49185 0.90625 1.90625 0.90625H19.0938C19.5082 0.90625 19.9056 1.07087 20.1986 1.3639C20.4916 1.65692 20.6562 2.05435 20.6562 2.46875ZM11.2568 13.2109C11.004 12.267 10.4046 11.4531 9.57812 10.9316C10.017 10.4953 10.3165 9.93856 10.4386 9.33186C10.5607 8.72517 10.4999 8.09588 10.2639 7.52378C10.0279 6.95168 9.6274 6.46252 9.11309 6.11832C8.59878 5.77412 7.99386 5.59037 7.375 5.59037C6.75614 5.59037 6.15122 5.77412 5.63691 6.11832C5.1226 6.46252 4.72208 6.95168 4.4861 7.52378C4.25012 8.09588 4.18933 8.72517 4.31141 9.33186C4.4335 9.93856 4.73298 10.4953 5.17188 10.9316C4.34595 11.4537 3.74668 12.2673 3.49316 13.2109C3.44136 13.4117 3.47142 13.6247 3.57673 13.8033C3.68204 13.9819 3.85396 14.1113 4.05469 14.1631C4.25541 14.2149 4.46849 14.1848 4.64706 14.0795C4.82562 13.9742 4.95504 13.8023 5.00684 13.6016C5.26465 12.6006 6.28223 11.8438 7.375 11.8438C8.46777 11.8438 9.48633 12.5986 9.74316 13.6016C9.79496 13.8023 9.92438 13.9742 10.1029 14.0795C10.2815 14.1848 10.4946 14.2149 10.6953 14.1631C10.896 14.1113 11.068 13.9819 11.1733 13.8033C11.2786 13.6247 11.3086 13.4117 11.2568 13.2109ZM17.5312 11.0625C17.5312 10.8553 17.4489 10.6566 17.3024 10.5101C17.1559 10.3636 16.9572 10.2812 16.75 10.2812H12.8438C12.6365 10.2812 12.4378 10.3636 12.2913 10.5101C12.1448 10.6566 12.0625 10.8553 12.0625 11.0625C12.0625 11.2697 12.1448 11.4684 12.2913 11.6149C12.4378 11.7614 12.6365 11.8438 12.8438 11.8438H16.75C16.9572 11.8438 17.1559 11.7614 17.3024 11.6149C17.4489 11.4684 17.5312 11.2697 17.5312 11.0625ZM17.5312 7.9375C17.5312 7.7303 17.4489 7.53159 17.3024 7.38507C17.1559 7.23856 16.9572 7.15625 16.75 7.15625H12.8438C12.6365 7.15625 12.4378 7.23856 12.2913 7.38507C12.1448 7.53159 12.0625 7.7303 12.0625 7.9375C12.0625 8.1447 12.1448 8.34341 12.2913 8.48993C12.4378 8.63644 12.6365 8.71875 12.8438 8.71875H16.75C16.9572 8.71875 17.1559 8.63644 17.3024 8.48993C17.4489 8.34341 17.5312 8.1447 17.5312 7.9375Z"
+                        fill="#1DBF73"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                  Lorem ipsum dolor sit amet..
+                </p>
+                <button type="button" class="main-btn w-100">Contact Me</button>
+              </div>
+            </div>
+          </div>
+          <div class="crad info mt-4">
+            <h3 class="card-title py-2">Info</h3>
+            <div class="information">
+              <div class="col1">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <p>
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 18 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9 0.0625C7.23233 0.0625 5.50436 0.586675 4.0346 1.56874C2.56483 2.55081 1.41929 3.94665 0.742831 5.57977C0.0663725 7.21288 -0.11062 9.00992 0.234236 10.7436C0.579091 12.4773 1.43031 14.0698 2.68024 15.3198C3.93017 16.5697 5.52268 17.4209 7.25638 17.7658C8.99009 18.1106 10.7871 17.9336 12.4202 17.2572C14.0534 16.5807 15.4492 15.4352 16.4313 13.9654C17.4133 12.4956 17.9375 10.7677 17.9375 9C17.935 6.6304 16.9926 4.35856 15.317 2.683C13.6414 1.00743 11.3696 0.0650023 9 0.0625ZM10.0313 13.125H9.6875V13.8125C9.6875 13.9948 9.61507 14.1697 9.48614 14.2986C9.35721 14.4276 9.18234 14.5 9 14.5C8.81767 14.5 8.6428 14.4276 8.51387 14.2986C8.38494 14.1697 8.3125 13.9948 8.3125 13.8125V13.125H6.9375C6.75517 13.125 6.5803 13.0526 6.45137 12.9236C6.32244 12.7947 6.25 12.6198 6.25 12.4375C6.25 12.2552 6.32244 12.0803 6.45137 11.9514C6.5803 11.8224 6.75517 11.75 6.9375 11.75H10.0313C10.3048 11.75 10.5671 11.6413 10.7605 11.448C10.9539 11.2546 11.0625 10.9923 11.0625 10.7188C11.0625 10.4452 10.9539 10.1829 10.7605 9.98955C10.5671 9.79615 10.3048 9.6875 10.0313 9.6875H7.96875C7.33058 9.6875 6.71854 9.43398 6.26728 8.98273C5.81602 8.53147 5.5625 7.91943 5.5625 7.28125C5.5625 6.64307 5.81602 6.03103 6.26728 5.57977C6.71854 5.12852 7.33058 4.875 7.96875 4.875H8.3125V4.1875C8.3125 4.00516 8.38494 3.8303 8.51387 3.70136C8.6428 3.57243 8.81767 3.5 9 3.5C9.18234 3.5 9.35721 3.57243 9.48614 3.70136C9.61507 3.8303 9.6875 4.00516 9.6875 4.1875V4.875H11.0625C11.2448 4.875 11.4197 4.94743 11.5486 5.07636C11.6776 5.2053 11.75 5.38016 11.75 5.5625C11.75 5.74484 11.6776 5.9197 11.5486 6.04864C11.4197 6.17757 11.2448 6.25 11.0625 6.25H7.96875C7.69525 6.25 7.43295 6.35865 7.23955 6.55205C7.04615 6.74544 6.9375 7.00775 6.9375 7.28125C6.9375 7.55475 7.04615 7.81706 7.23955 8.01045C7.43295 8.20385 7.69525 8.3125 7.96875 8.3125H10.0313C10.6694 8.3125 11.2815 8.56601 11.7327 9.01727C12.184 9.46853 12.4375 10.0806 12.4375 10.7188C12.4375 11.3569 12.184 11.969 11.7327 12.4202C11.2815 12.8715 10.6694 13.125 10.0313 13.125Z"
+                        fill="#696F79"
+                      />
+                    </svg>
+                    Price
+                  </p>
+                  <p>$10</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <p>
+                    <svg
+                      width="19"
+                      height="18"
+                      viewBox="0 0 19 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.42896 0.0625C7.66129 0.0625 5.93331 0.586675 4.46355 1.56874C2.99379 2.55081 1.84824 3.94665 1.17179 5.57977C0.495328 7.21288 0.318335 9.00992 0.663191 10.7436C1.00805 12.4773 1.85926 14.0698 3.10919 15.3198C4.35912 16.5697 5.95163 17.4209 7.68534 17.7658C9.41904 18.1106 11.2161 17.9336 12.8492 17.2572C14.4823 16.5807 15.8782 15.4352 16.8602 13.9654C17.8423 12.4956 18.3665 10.7677 18.3665 9C18.364 6.6304 17.4215 4.35856 15.746 2.683C14.0704 1.00743 11.7986 0.0650023 9.42896 0.0625ZM14.2415 9.6875H9.42896C9.24662 9.6875 9.07175 9.61507 8.94282 9.48614C8.81389 9.35721 8.74146 9.18234 8.74146 9V4.1875C8.74146 4.00516 8.81389 3.8303 8.94282 3.70136C9.07175 3.57243 9.24662 3.5 9.42896 3.5C9.6113 3.5 9.78616 3.57243 9.9151 3.70136C10.044 3.8303 10.1165 4.00516 10.1165 4.1875V8.3125H14.2415C14.4238 8.3125 14.5987 8.38493 14.7276 8.51386C14.8565 8.6428 14.929 8.81766 14.929 9C14.929 9.18234 14.8565 9.35721 14.7276 9.48614C14.5987 9.61507 14.4238 9.6875 14.2415 9.6875Z"
+                        fill="#696F79"
+                      />
+                    </svg>
+                    Delivery Duration
+                  </p>
+                  <p>1 day</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <p>
+                    <svg
+                      width="23"
+                      height="22"
+                      viewBox="0 0 23 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M20.5161 7.34432C20.3874 7.19734 20.2289 7.07947 20.051 6.99856C19.8732 6.91765 19.6802 6.87557 19.4848 6.87511H16.3593L11.7505 1.60971C11.6859 1.53656 11.6066 1.47797 11.5177 1.43784C11.4288 1.39771 11.3324 1.37695 11.2348 1.37695C11.1373 1.37695 11.0409 1.39771 10.952 1.43784C10.8631 1.47797 10.7837 1.53656 10.7192 1.60971L6.11039 6.87511H2.98484C2.78896 6.87511 2.59534 6.91696 2.41695 6.99787C2.23856 7.07877 2.07951 7.19686 1.95046 7.34422C1.82141 7.49158 1.72533 7.66481 1.66866 7.85231C1.61199 8.03982 1.59604 8.23726 1.62187 8.43143L2.81297 17.3698C2.85713 17.7001 3.01976 18.0032 3.27063 18.2226C3.5215 18.442 3.84352 18.5628 4.17679 18.5626H18.2929C18.6262 18.5628 18.9482 18.442 19.1991 18.2226C19.4499 18.0032 19.6126 17.7001 19.6567 17.3698L20.8487 8.43229C20.8741 8.23772 20.8575 8.03995 20.8002 7.8523C20.7428 7.66464 20.6459 7.49144 20.5161 7.34432ZM7.24734 15.8126C7.22415 15.8139 7.20092 15.8139 7.17773 15.8126C7.0067 15.8135 6.8415 15.7505 6.71437 15.6361C6.58725 15.5217 6.50733 15.364 6.49023 15.1939L6.00898 10.3814C5.99075 10.1999 6.04533 10.0187 6.16073 9.87751C6.27612 9.73633 6.44287 9.64678 6.62429 9.62854C6.80572 9.61031 6.98696 9.66489 7.12814 9.78029C7.26932 9.89568 7.35887 10.0624 7.37711 10.2439L7.85836 15.0564C7.87761 15.2377 7.82405 15.4192 7.70947 15.561C7.59488 15.7028 7.42865 15.7933 7.24734 15.8126ZM11.9223 15.1251C11.9223 15.3074 11.8499 15.4823 11.721 15.6112C11.592 15.7402 11.4172 15.8126 11.2348 15.8126C11.0525 15.8126 10.8776 15.7402 10.7487 15.6112C10.6198 15.4823 10.5473 15.3074 10.5473 15.1251V10.3126C10.5473 10.1303 10.6198 9.9554 10.7487 9.82647C10.8776 9.69754 11.0525 9.62511 11.2348 9.62511C11.4172 9.62511 11.592 9.69754 11.721 9.82647C11.8499 9.9554 11.9223 10.1303 11.9223 10.3126V15.1251ZM7.93742 6.87511L11.2348 3.10675L14.5323 6.87511H7.93742ZM16.4564 10.3814L15.9752 15.1939C15.9581 15.3633 15.8788 15.5204 15.7526 15.6347C15.6264 15.749 15.4622 15.8124 15.292 15.8126C15.2688 15.8139 15.2455 15.8139 15.2223 15.8126C15.1325 15.8036 15.0453 15.7769 14.9658 15.7342C14.8863 15.6915 14.8159 15.6335 14.7588 15.5636C14.7016 15.4937 14.6588 15.4133 14.6328 15.3268C14.6068 15.2404 14.598 15.1496 14.607 15.0598L15.0883 10.2473C15.1065 10.0659 15.1961 9.89912 15.3372 9.78372C15.4784 9.66833 15.6597 9.61375 15.8411 9.63198C16.0225 9.65021 16.1893 9.73977 16.3047 9.88095C16.4201 10.0221 16.4746 10.2034 16.4564 10.3848V10.3814Z"
+                        fill="#696F79"
+                      />
+                    </svg>
+                    In Progress Orders
+                  </p>
+                  <p>2</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <p>
+                    <svg
+                      width="23"
+                      height="22"
+                      viewBox="0 0 23 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_4971_205)">
+                        <path
+                          d="M14.4561 16.8118C14.5237 16.9156 14.5621 17.0357 14.5672 17.1594C14.5722 17.2831 14.5437 17.4059 14.4847 17.5148C14.4258 17.6237 14.3385 17.7147 14.2321 17.778C14.1257 17.8414 14.0041 17.8749 13.8803 17.8749H1.20109C1.07725 17.8749 0.955712 17.8414 0.84932 17.778C0.742928 17.7147 0.65563 17.6237 0.59665 17.5148C0.53767 17.4059 0.509198 17.2831 0.514243 17.1594C0.519287 17.0357 0.557659 16.9156 0.625307 16.8118C1.59305 15.3222 3.01651 14.1855 4.68328 13.5711C3.76185 12.9577 3.0623 12.064 2.68806 11.0223C2.31383 9.98052 2.28478 8.84598 2.60521 7.78644C2.92565 6.72689 3.57855 5.79859 4.46738 5.13881C5.3562 4.47903 6.43376 4.1228 7.5407 4.1228C8.64764 4.1228 9.72519 4.47903 10.614 5.13881C11.5028 5.79859 12.1557 6.72689 12.4762 7.78644C12.7966 8.84598 12.7676 9.98052 12.3933 11.0223C12.0191 12.064 11.3195 12.9577 10.3981 13.5711C12.0649 14.1855 13.4883 15.3222 14.4561 16.8118ZM22.0109 16.799C21.0429 15.3156 19.6226 14.1837 17.9606 13.5711C19.0484 12.8384 19.8161 11.7187 20.1074 10.4399C20.3987 9.16108 20.1917 7.81933 19.5286 6.68775C18.8656 5.55616 17.7962 4.71979 16.5381 4.34887C15.2801 3.97796 13.928 4.10038 12.7571 4.69122C12.7123 4.71434 12.6732 4.74702 12.6424 4.78695C12.6117 4.82688 12.5901 4.87307 12.5792 4.92227C12.5683 4.97147 12.5683 5.02246 12.5793 5.07164C12.5903 5.12081 12.612 5.16697 12.6428 5.20685C13.5135 6.29293 14.0135 7.62929 14.0697 9.02016C14.1258 10.411 13.7351 11.7833 12.9548 12.9361C12.9043 13.0114 12.8857 13.1036 12.9029 13.1926C12.9201 13.2816 12.9718 13.3602 13.0467 13.4113C14.0641 14.1214 14.9351 15.0209 15.6119 16.0608C15.8849 16.4788 15.9964 16.9819 15.9256 17.4761C15.9177 17.5253 15.9205 17.5756 15.9339 17.6236C15.9472 17.6716 15.9709 17.716 16.0032 17.754C16.0355 17.7919 16.0756 17.8224 16.1208 17.8432C16.1661 17.8641 16.2153 17.8749 16.2651 17.8749H21.4471C21.5985 17.8749 21.7457 17.825 21.8658 17.7329C21.9859 17.6407 22.0722 17.5115 22.1114 17.3653C22.1353 17.2691 22.1387 17.169 22.1214 17.0714C22.1041 16.9739 22.0664 16.881 22.0109 16.799Z"
+                          fill="#696F79"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_4971_205">
+                          <rect
+                            width="22"
+                            height="22"
+                            fill="white"
+                            transform="translate(0.322021)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    Customers
+                  </p>
+                  <p>2</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <p>
+                    <svg
+                      width="23"
+                      height="22"
+                      viewBox="0 0 23 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.8108 14.7812C15.8108 14.9852 15.7503 15.1846 15.637 15.3542C15.5237 15.5238 15.3626 15.6559 15.1742 15.734C14.9857 15.8121 14.7784 15.8325 14.5784 15.7927C14.3783 15.7529 14.1946 15.6547 14.0503 15.5105C13.9061 15.3662 13.8079 15.1825 13.7681 14.9824C13.7283 14.7824 13.7487 14.575 13.8268 14.3866C13.9048 14.1982 14.037 14.0371 14.2066 13.9238C14.3762 13.8105 14.5756 13.75 14.7795 13.75C15.053 13.75 15.3153 13.8587 15.5087 14.052C15.7021 14.2454 15.8108 14.5077 15.8108 14.7812ZM8.59204 8.25C8.796 8.25 8.99538 8.18952 9.16497 8.0762C9.33456 7.96289 9.46674 7.80183 9.54479 7.61339C9.62284 7.42496 9.64327 7.21761 9.60348 7.01756C9.56368 6.81752 9.46547 6.63377 9.32125 6.48955C9.17702 6.34532 8.99327 6.24711 8.79323 6.20731C8.59319 6.16752 8.38584 6.18795 8.1974 6.266C8.00896 6.34405 7.8479 6.47623 7.73459 6.64582C7.62127 6.81541 7.56079 7.01479 7.56079 7.21875C7.56079 7.49225 7.66944 7.75456 7.86284 7.94795C8.05623 8.14135 8.31854 8.25 8.59204 8.25ZM19.9358 4.125V17.875C19.9358 18.2397 19.7909 18.5894 19.5331 18.8473C19.2752 19.1051 18.9255 19.25 18.5608 19.25H4.81079C4.44612 19.25 4.09638 19.1051 3.83852 18.8473C3.58066 18.5894 3.43579 18.2397 3.43579 17.875V4.125C3.43579 3.76033 3.58066 3.41059 3.83852 3.15273C4.09638 2.89487 4.44612 2.75 4.81079 2.75H18.5608C18.9255 2.75 19.2752 2.89487 19.5331 3.15273C19.7909 3.41059 19.9358 3.76033 19.9358 4.125ZM6.18579 7.21875C6.18579 7.69466 6.32692 8.15989 6.59132 8.55559C6.85572 8.9513 7.23152 9.25971 7.67121 9.44184C8.11089 9.62396 8.59471 9.67161 9.06148 9.57876C9.52824 9.48592 9.957 9.25675 10.2935 8.92023C10.63 8.58371 10.8592 8.15495 10.9521 7.68819C11.0449 7.22142 10.9972 6.7376 10.8151 6.29792C10.633 5.85823 10.3246 5.48243 9.92888 5.21803C9.53318 4.95362 9.06795 4.8125 8.59204 4.8125C7.95386 4.8125 7.34182 5.06602 6.89057 5.51727C6.43931 5.96853 6.18579 6.58057 6.18579 7.21875ZM17.1858 14.7812C17.1858 14.3053 17.0447 13.8401 16.7803 13.4444C16.5159 13.0487 16.1401 12.7403 15.7004 12.5582C15.2607 12.376 14.7769 12.3284 14.3101 12.4212C13.8433 12.5141 13.4146 12.7433 13.0781 13.0798C12.7415 13.4163 12.5124 13.845 12.4195 14.3118C12.3267 14.7786 12.3743 15.2624 12.5565 15.7021C12.7386 16.1418 13.047 16.5176 13.4427 16.782C13.8384 17.0464 14.3036 17.1875 14.7795 17.1875C15.4177 17.1875 16.0298 16.934 16.481 16.4827C16.9323 16.0315 17.1858 15.4194 17.1858 14.7812ZM16.9847 5.70109C16.9208 5.63717 16.845 5.58646 16.7616 5.55187C16.6781 5.51727 16.5886 5.49946 16.4983 5.49946C16.4079 5.49946 16.3185 5.51727 16.235 5.55187C16.1516 5.58646 16.0757 5.63717 16.0119 5.70109L6.38688 15.3261C6.25788 15.4551 6.18541 15.6301 6.18541 15.8125C6.18541 15.9949 6.25788 16.1699 6.38688 16.2989C6.51589 16.4279 6.69085 16.5004 6.87329 16.5004C7.05573 16.5004 7.23069 16.4279 7.3597 16.2989L16.9847 6.67391C17.0486 6.61006 17.0993 6.53423 17.1339 6.45077C17.1685 6.36731 17.1863 6.27785 17.1863 6.1875C17.1863 6.09715 17.1685 6.00769 17.1339 5.92423C17.0993 5.84077 17.0486 5.76494 16.9847 5.70109Z"
+                        fill="#696F79"
+                      />
+                    </svg>
+                    Sales
+                  </p>
+                  <p>25$</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <p>
+                    <svg
+                      width="23"
+                      height="22"
+                      viewBox="0 0 23 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.9099 4.8125V6.1875C19.9099 6.36984 19.8375 6.5447 19.7085 6.67364C19.5796 6.80257 19.4047 6.875 19.2224 6.875H8.90991C8.72758 6.875 8.55271 6.80257 8.42378 6.67364C8.29485 6.5447 8.22241 6.36984 8.22241 6.1875V4.8125C8.22241 4.63016 8.29485 4.4553 8.42378 4.32636C8.55271 4.19743 8.72758 4.125 8.90991 4.125H19.2224C19.4047 4.125 19.5796 4.19743 19.7085 4.32636C19.8375 4.4553 19.9099 4.63016 19.9099 4.8125ZM5.47241 4.125H4.09741C3.91508 4.125 3.74021 4.19743 3.61128 4.32636C3.48235 4.4553 3.40991 4.63016 3.40991 4.8125V6.1875C3.40991 6.36984 3.48235 6.5447 3.61128 6.67364C3.74021 6.80257 3.91508 6.875 4.09741 6.875H5.47241C5.65475 6.875 5.82962 6.80257 5.95855 6.67364C6.08748 6.5447 6.15991 6.36984 6.15991 6.1875V4.8125C6.15991 4.63016 6.08748 4.4553 5.95855 4.32636C5.82962 4.19743 5.65475 4.125 5.47241 4.125ZM19.2224 9.625H8.90991C8.72758 9.625 8.55271 9.69743 8.42378 9.82636C8.29485 9.9553 8.22241 10.1302 8.22241 10.3125V11.6875C8.22241 11.8698 8.29485 12.0447 8.42378 12.1736C8.55271 12.3026 8.72758 12.375 8.90991 12.375H19.2224C19.4047 12.375 19.5796 12.3026 19.7085 12.1736C19.8375 12.0447 19.9099 11.8698 19.9099 11.6875V10.3125C19.9099 10.1302 19.8375 9.9553 19.7085 9.82636C19.5796 9.69743 19.4047 9.625 19.2224 9.625ZM5.47241 9.625H4.09741C3.91508 9.625 3.74021 9.69743 3.61128 9.82636C3.48235 9.9553 3.40991 10.1302 3.40991 10.3125V11.6875C3.40991 11.8698 3.48235 12.0447 3.61128 12.1736C3.74021 12.3026 3.91508 12.375 4.09741 12.375H5.47241C5.65475 12.375 5.82962 12.3026 5.95855 12.1736C6.08748 12.0447 6.15991 11.8698 6.15991 11.6875V10.3125C6.15991 10.1302 6.08748 9.9553 5.95855 9.82636C5.82962 9.69743 5.65475 9.625 5.47241 9.625ZM19.2224 15.125H8.90991C8.72758 15.125 8.55271 15.1974 8.42378 15.3264C8.29485 15.4553 8.22241 15.6302 8.22241 15.8125V17.1875C8.22241 17.3698 8.29485 17.5447 8.42378 17.6736C8.55271 17.8026 8.72758 17.875 8.90991 17.875H19.2224C19.4047 17.875 19.5796 17.8026 19.7085 17.6736C19.8375 17.5447 19.9099 17.3698 19.9099 17.1875V15.8125C19.9099 15.6302 19.8375 15.4553 19.7085 15.3264C19.5796 15.1974 19.4047 15.125 19.2224 15.125ZM5.47241 15.125H4.09741C3.91508 15.125 3.74021 15.1974 3.61128 15.3264C3.48235 15.4553 3.40991 15.6302 3.40991 15.8125V17.1875C3.40991 17.3698 3.48235 17.5447 3.61128 17.6736C3.74021 17.8026 3.91508 17.875 4.09741 17.875H5.47241C5.65475 17.875 5.82962 17.8026 5.95855 17.6736C6.08748 17.5447 6.15991 17.3698 6.15991 17.1875V15.8125C6.15991 15.6302 6.08748 15.4553 5.95855 15.3264C5.82962 15.1974 5.65475 15.125 5.47241 15.125Z"
+                        fill="#696F79"
+                      />
+                    </svg>
+                    Category
+                  </p>
+                  <p>Design</p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <p>
+                    <svg
+                      width="23"
+                      height="22"
+                      viewBox="0 0 23 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.9099 4.8125V6.1875C19.9099 6.36984 19.8375 6.5447 19.7085 6.67364C19.5796 6.80257 19.4047 6.875 19.2224 6.875H8.90991C8.72758 6.875 8.55271 6.80257 8.42378 6.67364C8.29485 6.5447 8.22241 6.36984 8.22241 6.1875V4.8125C8.22241 4.63016 8.29485 4.4553 8.42378 4.32636C8.55271 4.19743 8.72758 4.125 8.90991 4.125H19.2224C19.4047 4.125 19.5796 4.19743 19.7085 4.32636C19.8375 4.4553 19.9099 4.63016 19.9099 4.8125ZM5.47241 4.125H4.09741C3.91508 4.125 3.74021 4.19743 3.61128 4.32636C3.48235 4.4553 3.40991 4.63016 3.40991 4.8125V6.1875C3.40991 6.36984 3.48235 6.5447 3.61128 6.67364C3.74021 6.80257 3.91508 6.875 4.09741 6.875H5.47241C5.65475 6.875 5.82962 6.80257 5.95855 6.67364C6.08748 6.5447 6.15991 6.36984 6.15991 6.1875V4.8125C6.15991 4.63016 6.08748 4.4553 5.95855 4.32636C5.82962 4.19743 5.65475 4.125 5.47241 4.125ZM19.2224 9.625H8.90991C8.72758 9.625 8.55271 9.69743 8.42378 9.82636C8.29485 9.9553 8.22241 10.1302 8.22241 10.3125V11.6875C8.22241 11.8698 8.29485 12.0447 8.42378 12.1736C8.55271 12.3026 8.72758 12.375 8.90991 12.375H19.2224C19.4047 12.375 19.5796 12.3026 19.7085 12.1736C19.8375 12.0447 19.9099 11.8698 19.9099 11.6875V10.3125C19.9099 10.1302 19.8375 9.9553 19.7085 9.82636C19.5796 9.69743 19.4047 9.625 19.2224 9.625ZM5.47241 9.625H4.09741C3.91508 9.625 3.74021 9.69743 3.61128 9.82636C3.48235 9.9553 3.40991 10.1302 3.40991 10.3125V11.6875C3.40991 11.8698 3.48235 12.0447 3.61128 12.1736C3.74021 12.3026 3.91508 12.375 4.09741 12.375H5.47241C5.65475 12.375 5.82962 12.3026 5.95855 12.1736C6.08748 12.0447 6.15991 11.8698 6.15991 11.6875V10.3125C6.15991 10.1302 6.08748 9.9553 5.95855 9.82636C5.82962 9.69743 5.65475 9.625 5.47241 9.625ZM19.2224 15.125H8.90991C8.72758 15.125 8.55271 15.1974 8.42378 15.3264C8.29485 15.4553 8.22241 15.6302 8.22241 15.8125V17.1875C8.22241 17.3698 8.29485 17.5447 8.42378 17.6736C8.55271 17.8026 8.72758 17.875 8.90991 17.875H19.2224C19.4047 17.875 19.5796 17.8026 19.7085 17.6736C19.8375 17.5447 19.9099 17.3698 19.9099 17.1875V15.8125C19.9099 15.6302 19.8375 15.4553 19.7085 15.3264C19.5796 15.1974 19.4047 15.125 19.2224 15.125ZM5.47241 15.125H4.09741C3.91508 15.125 3.74021 15.1974 3.61128 15.3264C3.48235 15.4553 3.40991 15.6302 3.40991 15.8125V17.1875C3.40991 17.3698 3.48235 17.5447 3.61128 17.6736C3.74021 17.8026 3.91508 17.875 4.09741 17.875H5.47241C5.65475 17.875 5.82962 17.8026 5.95855 17.6736C6.08748 17.5447 6.15991 17.3698 6.15991 17.1875V15.8125C6.15991 15.6302 6.08748 15.4553 5.95855 15.3264C5.82962 15.1974 5.65475 15.125 5.47241 15.125Z"
+                        fill="#696F79"
+                      />
+                    </svg>
+                    Subcategory
+                  </p>
+                  <p>Logo Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card social mt-4">
+            <h3 class="card-title">Share & Earn</h3>
+            <div class="social-media d-flex justify-content-center">
+              <i class="fa-brands fa-linkedin-in icon"></i>
+              <i class="fa-brands fa-facebook icon"></i>
+              <i class="fa-brands fa-whatsapp icon"></i>
+              <i class="fa-brands fa-twitter icon"></i>
+              <i class="fa-regular fa-clone icon"></i>
+            </div>
+          </div>
+
+          <div class="seller mt-4">
+            <div class="title d-flex justify-content-between">
+              <h3 class="card-title">Seller Other Services</h3>
+              <p>see more</p>
+            </div>
+            <div class="card mb-3">
+              <div class="d-flex align-items-center gap-2">
+                <img src="images/bg.png" class="rounded-start" alt="..." />
+                <div class="card-body p-2">
+                  <p class="card-title">
+                    Lorem ipsum dolor sit ame, consecteturLorem ipsum dolor...
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <p class="col1 mb-0">
+                      <i class="fa-solid fa-star colored pe-1"></i>4.9 (50)
+                    </p>
+                    <p class="col2 mb-0">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.2565 6.96876L7.43751 1.14981C7.35077 1.06238 7.24751 0.993056 7.13375 0.945879C7.01998 0.898703 6.89797 0.874611 6.77481 0.875005H1.34375C1.21943 0.875005 1.10021 0.924391 1.0123 1.0123C0.924391 1.10021 0.875005 1.21943 0.875005 1.34375V6.77481C0.874611 6.89797 0.898703 7.01998 0.945879 7.13375C0.993056 7.24751 1.06238 7.35077 1.14981 7.43751L6.96876 13.2565C7.05581 13.3435 7.15917 13.4126 7.27293 13.4597C7.38669 13.5069 7.50861 13.5311 7.63174 13.5311C7.75488 13.5311 7.8768 13.5069 7.99056 13.4597C8.10432 13.4126 8.20767 13.3435 8.29473 13.2565L13.2565 8.29473C13.3435 8.20767 13.4126 8.10432 13.4597 7.99056C13.5069 7.8768 13.5311 7.75488 13.5311 7.63174C13.5311 7.50861 13.5069 7.38669 13.4597 7.27293C13.4126 7.15917 13.3435 7.05581 13.2565 6.96876ZM3.92188 4.62501C3.78281 4.62501 3.64687 4.58377 3.53124 4.50651C3.41562 4.42925 3.32549 4.31943 3.27228 4.19095C3.21906 4.06247 3.20513 3.9211 3.23227 3.78471C3.2594 3.64831 3.32636 3.52303 3.4247 3.4247C3.52303 3.32636 3.64831 3.2594 3.78471 3.23227C3.9211 3.20513 4.06247 3.21906 4.19095 3.27228C4.31943 3.32549 4.42925 3.41562 4.50651 3.53124C4.58377 3.64687 4.62501 3.78281 4.62501 3.92188C4.62501 4.10836 4.55093 4.2872 4.41906 4.41906C4.2872 4.55093 4.10836 4.62501 3.92188 4.62501Z"
+                          fill="#1DBF73"
+                        />
+                      </svg>
+                      $10
+                    </p>
+                    <p class="col3 mb-0"><i class="fa-regular fa-heart"></i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="d-flex align-items-center gap-2">
+                <div class="">
+                  <img src="images/bg.png" class="rounded-start" alt="..." />
+                </div>
+                <div class="">
+                  <div class="card-body p-2">
+                    <p class="card-title">
+                      Lorem ipsum dolor sit ame, consecteturLorem ipsum dolor...
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <p class="col1 mb-0">
+                        <i class="fa-solid fa-star colored pe-1"></i>4.9 (50)
+                      </p>
+                      <p class="col2 mb-0">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13.2565 6.96876L7.43751 1.14981C7.35077 1.06238 7.24751 0.993056 7.13375 0.945879C7.01998 0.898703 6.89797 0.874611 6.77481 0.875005H1.34375C1.21943 0.875005 1.10021 0.924391 1.0123 1.0123C0.924391 1.10021 0.875005 1.21943 0.875005 1.34375V6.77481C0.874611 6.89797 0.898703 7.01998 0.945879 7.13375C0.993056 7.24751 1.06238 7.35077 1.14981 7.43751L6.96876 13.2565C7.05581 13.3435 7.15917 13.4126 7.27293 13.4597C7.38669 13.5069 7.50861 13.5311 7.63174 13.5311C7.75488 13.5311 7.8768 13.5069 7.99056 13.4597C8.10432 13.4126 8.20767 13.3435 8.29473 13.2565L13.2565 8.29473C13.3435 8.20767 13.4126 8.10432 13.4597 7.99056C13.5069 7.8768 13.5311 7.75488 13.5311 7.63174C13.5311 7.50861 13.5069 7.38669 13.4597 7.27293C13.4126 7.15917 13.3435 7.05581 13.2565 6.96876ZM3.92188 4.62501C3.78281 4.62501 3.64687 4.58377 3.53124 4.50651C3.41562 4.42925 3.32549 4.31943 3.27228 4.19095C3.21906 4.06247 3.20513 3.9211 3.23227 3.78471C3.2594 3.64831 3.32636 3.52303 3.4247 3.4247C3.52303 3.32636 3.64831 3.2594 3.78471 3.23227C3.9211 3.20513 4.06247 3.21906 4.19095 3.27228C4.31943 3.32549 4.42925 3.41562 4.50651 3.53124C4.58377 3.64687 4.62501 3.78281 4.62501 3.92188C4.62501 4.10836 4.55093 4.2872 4.41906 4.41906C4.2872 4.55093 4.10836 4.62501 3.92188 4.62501Z"
+                            fill="#1DBF73"
+                          />
+                        </svg>
+                        $10
+                      </p>
+                      <p class="col3 mb-0">
+                        <i class="fa-regular active fa-heart"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="d-flex align-items-center gap-2">
+                <div class="">
+                  <img src="images/bg.png" class="rounded-start" alt="..." />
+                </div>
+                <div class="">
+                  <div class="card-body p-2">
+                    <p class="card-title">
+                      Lorem ipsum dolor sit ame, consecteturLorem ipsum dolor...
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <p class="col1 mb-0">
+                        <i class="fa-solid fa-star colored pe-1"></i>4.9 (50)
+                      </p>
+                      <p class="col2 mb-0">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13.2565 6.96876L7.43751 1.14981C7.35077 1.06238 7.24751 0.993056 7.13375 0.945879C7.01998 0.898703 6.89797 0.874611 6.77481 0.875005H1.34375C1.21943 0.875005 1.10021 0.924391 1.0123 1.0123C0.924391 1.10021 0.875005 1.21943 0.875005 1.34375V6.77481C0.874611 6.89797 0.898703 7.01998 0.945879 7.13375C0.993056 7.24751 1.06238 7.35077 1.14981 7.43751L6.96876 13.2565C7.05581 13.3435 7.15917 13.4126 7.27293 13.4597C7.38669 13.5069 7.50861 13.5311 7.63174 13.5311C7.75488 13.5311 7.8768 13.5069 7.99056 13.4597C8.10432 13.4126 8.20767 13.3435 8.29473 13.2565L13.2565 8.29473C13.3435 8.20767 13.4126 8.10432 13.4597 7.99056C13.5069 7.8768 13.5311 7.75488 13.5311 7.63174C13.5311 7.50861 13.5069 7.38669 13.4597 7.27293C13.4126 7.15917 13.3435 7.05581 13.2565 6.96876ZM3.92188 4.62501C3.78281 4.62501 3.64687 4.58377 3.53124 4.50651C3.41562 4.42925 3.32549 4.31943 3.27228 4.19095C3.21906 4.06247 3.20513 3.9211 3.23227 3.78471C3.2594 3.64831 3.32636 3.52303 3.4247 3.4247C3.52303 3.32636 3.64831 3.2594 3.78471 3.23227C3.9211 3.20513 4.06247 3.21906 4.19095 3.27228C4.31943 3.32549 4.42925 3.41562 4.50651 3.53124C4.58377 3.64687 4.62501 3.78281 4.62501 3.92188C4.62501 4.10836 4.55093 4.2872 4.41906 4.41906C4.2872 4.55093 4.10836 4.62501 3.92188 4.62501Z"
+                            fill="#1DBF73"
+                          />
+                        </svg>
+                        $10
+                      </p>
+                      <p class="col3 mb-0">
+                        <i class="fa-regular fa-heart"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="suggested mb-3">
+            <h4 class="h4">Suggested Services</h4>
+            <div class="row">
+              <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                <div class="card">
+                  <div class="position-relative">
+                    <img
+                      src="images/Rectangle 8.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <i class="fa-regular fa-heart position-absolute"></i>
+                  </div>
+                  <div class="card-body">
+                    <p class="paragraph">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <div
+                      class="d-flex justify-content-start align-items-start gap-2"
+                    >
+                      <i class="fa-solid fa-star colored"></i>
+                      <p>4.9</p>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p>300</p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between gap-2 align-items-center"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img src="images/man.jpeg" class="profile-img" alt="" />
+                        <h5>Jane Smith</h5>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M14.2565 7.96876L8.43751 2.14981C8.35077 2.06238 8.24751 1.99306 8.13375 1.94588C8.01998 1.8987 7.89797 1.87461 7.77481 1.875H2.34375C2.21943 1.875 2.10021 1.92439 2.0123 2.0123C1.92439 2.10021 1.875 2.21943 1.875 2.34375V7.77481C1.87461 7.89797 1.8987 8.01998 1.94588 8.13375C1.99306 8.24751 2.06238 8.35077 2.14981 8.43751L7.96876 14.2565C8.05581 14.3435 8.15917 14.4126 8.27293 14.4597C8.38669 14.5069 8.50861 14.5311 8.63174 14.5311C8.75488 14.5311 8.8768 14.5069 8.99056 14.4597C9.10432 14.4126 9.20767 14.3435 9.29473 14.2565L14.2565 9.29473C14.3435 9.20767 14.4126 9.10432 14.4597 8.99056C14.5069 8.8768 14.5311 8.75488 14.5311 8.63174C14.5311 8.50861 14.5069 8.38669 14.4597 8.27293C14.4126 8.15917 14.3435 8.05581 14.2565 7.96876ZM4.92188 5.62501C4.78281 5.62501 4.64687 5.58377 4.53124 5.50651C4.41562 5.42925 4.32549 5.31943 4.27228 5.19095C4.21906 5.06247 4.20513 4.9211 4.23227 4.78471C4.2594 4.64831 4.32636 4.52303 4.4247 4.4247C4.52303 4.32636 4.64831 4.2594 4.78471 4.23227C4.9211 4.20513 5.06247 4.21906 5.19095 4.27228C5.31943 4.32549 5.42925 4.41562 5.50651 4.53124C5.58377 4.64687 5.62501 4.78281 5.62501 4.92188C5.62501 5.10836 5.55093 5.2872 5.41906 5.41906C5.2872 5.55093 5.10836 5.62501 4.92188 5.62501Z"
+                            fill="#1DBF73"
+                          />
+                        </svg>
+                        <h4>$10</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                <div class="card">
+                  <div class="position-relative">
+                    <img
+                      src="images/Rectangle 8.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <i class="fa-regular fa-heart position-absolute"></i>
+                  </div>
+                  <div class="card-body">
+                    <p class="paragraph">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <div
+                      class="d-flex justify-content-start align-items-start gap-2"
+                    >
+                      <i class="fa-solid fa-star colored"></i>
+                      <p>4.9</p>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p>300</p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between gap-2 align-items-center"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img src="images/man.jpeg" class="profile-img" alt="" />
+                        <h5>Jane Smith</h5>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M14.2565 7.96876L8.43751 2.14981C8.35077 2.06238 8.24751 1.99306 8.13375 1.94588C8.01998 1.8987 7.89797 1.87461 7.77481 1.875H2.34375C2.21943 1.875 2.10021 1.92439 2.0123 2.0123C1.92439 2.10021 1.875 2.21943 1.875 2.34375V7.77481C1.87461 7.89797 1.8987 8.01998 1.94588 8.13375C1.99306 8.24751 2.06238 8.35077 2.14981 8.43751L7.96876 14.2565C8.05581 14.3435 8.15917 14.4126 8.27293 14.4597C8.38669 14.5069 8.50861 14.5311 8.63174 14.5311C8.75488 14.5311 8.8768 14.5069 8.99056 14.4597C9.10432 14.4126 9.20767 14.3435 9.29473 14.2565L14.2565 9.29473C14.3435 9.20767 14.4126 9.10432 14.4597 8.99056C14.5069 8.8768 14.5311 8.75488 14.5311 8.63174C14.5311 8.50861 14.5069 8.38669 14.4597 8.27293C14.4126 8.15917 14.3435 8.05581 14.2565 7.96876ZM4.92188 5.62501C4.78281 5.62501 4.64687 5.58377 4.53124 5.50651C4.41562 5.42925 4.32549 5.31943 4.27228 5.19095C4.21906 5.06247 4.20513 4.9211 4.23227 4.78471C4.2594 4.64831 4.32636 4.52303 4.4247 4.4247C4.52303 4.32636 4.64831 4.2594 4.78471 4.23227C4.9211 4.20513 5.06247 4.21906 5.19095 4.27228C5.31943 4.32549 5.42925 4.41562 5.50651 4.53124C5.58377 4.64687 5.62501 4.78281 5.62501 4.92188C5.62501 5.10836 5.55093 5.2872 5.41906 5.41906C5.2872 5.55093 5.10836 5.62501 4.92188 5.62501Z"
+                            fill="#1DBF73"
+                          />
+                        </svg>
+                        <h4>$10</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                <div class="card">
+                  <div class="position-relative">
+                    <img
+                      src="images/Rectangle 8.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <i class="fa-regular fa-heart position-absolute"></i>
+                  </div>
+                  <div class="card-body">
+                    <p class="paragraph">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <div
+                      class="d-flex justify-content-start align-items-start gap-2"
+                    >
+                      <i class="fa-solid fa-star colored"></i>
+                      <p>4.9</p>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p>300</p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between gap-2 align-items-center"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img src="images/man.jpeg" class="profile-img" alt="" />
+                        <h5>Jane Smith</h5>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M14.2565 7.96876L8.43751 2.14981C8.35077 2.06238 8.24751 1.99306 8.13375 1.94588C8.01998 1.8987 7.89797 1.87461 7.77481 1.875H2.34375C2.21943 1.875 2.10021 1.92439 2.0123 2.0123C1.92439 2.10021 1.875 2.21943 1.875 2.34375V7.77481C1.87461 7.89797 1.8987 8.01998 1.94588 8.13375C1.99306 8.24751 2.06238 8.35077 2.14981 8.43751L7.96876 14.2565C8.05581 14.3435 8.15917 14.4126 8.27293 14.4597C8.38669 14.5069 8.50861 14.5311 8.63174 14.5311C8.75488 14.5311 8.8768 14.5069 8.99056 14.4597C9.10432 14.4126 9.20767 14.3435 9.29473 14.2565L14.2565 9.29473C14.3435 9.20767 14.4126 9.10432 14.4597 8.99056C14.5069 8.8768 14.5311 8.75488 14.5311 8.63174C14.5311 8.50861 14.5069 8.38669 14.4597 8.27293C14.4126 8.15917 14.3435 8.05581 14.2565 7.96876ZM4.92188 5.62501C4.78281 5.62501 4.64687 5.58377 4.53124 5.50651C4.41562 5.42925 4.32549 5.31943 4.27228 5.19095C4.21906 5.06247 4.20513 4.9211 4.23227 4.78471C4.2594 4.64831 4.32636 4.52303 4.4247 4.4247C4.52303 4.32636 4.64831 4.2594 4.78471 4.23227C4.9211 4.20513 5.06247 4.21906 5.19095 4.27228C5.31943 4.32549 5.42925 4.41562 5.50651 4.53124C5.58377 4.64687 5.62501 4.78281 5.62501 4.92188C5.62501 5.10836 5.55093 5.2872 5.41906 5.41906C5.2872 5.55093 5.10836 5.62501 4.92188 5.62501Z"
+                            fill="#1DBF73"
+                          />
+                        </svg>
+                        <h4>$10</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                <div class="card">
+                  <div class="position-relative">
+                    <img
+                      src="images/Rectangle 8.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <i class="fa-regular active fa-heart position-absolute"></i>
+                  </div>
+                  <div class="card-body">
+                    <p class="paragraph">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <div
+                      class="d-flex justify-content-start align-items-start gap-2"
+                    >
+                      <i class="fa-solid fa-star colored"></i>
+                      <p>4.9</p>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p>300</p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between gap-2 align-items-center"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img src="images/man.jpeg" class="profile-img" alt="" />
+                        <h5>Jane Smith</h5>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <svg
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M14.2565 7.96876L8.43751 2.14981C8.35077 2.06238 8.24751 1.99306 8.13375 1.94588C8.01998 1.8987 7.89797 1.87461 7.77481 1.875H2.34375C2.21943 1.875 2.10021 1.92439 2.0123 2.0123C1.92439 2.10021 1.875 2.21943 1.875 2.34375V7.77481C1.87461 7.89797 1.8987 8.01998 1.94588 8.13375C1.99306 8.24751 2.06238 8.35077 2.14981 8.43751L7.96876 14.2565C8.05581 14.3435 8.15917 14.4126 8.27293 14.4597C8.38669 14.5069 8.50861 14.5311 8.63174 14.5311C8.75488 14.5311 8.8768 14.5069 8.99056 14.4597C9.10432 14.4126 9.20767 14.3435 9.29473 14.2565L14.2565 9.29473C14.3435 9.20767 14.4126 9.10432 14.4597 8.99056C14.5069 8.8768 14.5311 8.75488 14.5311 8.63174C14.5311 8.50861 14.5069 8.38669 14.4597 8.27293C14.4126 8.15917 14.3435 8.05581 14.2565 7.96876ZM4.92188 5.62501C4.78281 5.62501 4.64687 5.58377 4.53124 5.50651C4.41562 5.42925 4.32549 5.31943 4.27228 5.19095C4.21906 5.06247 4.20513 4.9211 4.23227 4.78471C4.2594 4.64831 4.32636 4.52303 4.4247 4.4247C4.52303 4.32636 4.64831 4.2594 4.78471 4.23227C4.9211 4.20513 5.06247 4.21906 5.19095 4.27228C5.31943 4.32549 5.42925 4.41562 5.50651 4.53124C5.58377 4.64687 5.62501 4.78281 5.62501 4.92188C5.62501 5.10836 5.55093 5.2872 5.41906 5.41906C5.2872 5.55093 5.10836 5.62501 4.92188 5.62501Z"
+                            fill="#1DBF73"
+                          />
+                        </svg>
+                        <h4>$10</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end  -->
+
+    <!----------------------------------js------------------------------------->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
